@@ -4,20 +4,57 @@
 {% block body %}
     <!-- Start of body content specific to page -->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-white"><strong>Python Home Page</strong></h1>
+        <h1 class="text-white"><strong>Alexa's Flask Project</strong></h1>
         <div class="row">
             <div class="col-4">
                 <div class="card">
                     <img class="card-img-top" src="{{ url_for('static', filename='assets/python.jpeg') }}" alt="Python Development" height="250">
                     <div class="card-body">
-                    <h5 class="card-title">What should <mark>Student Developers learn</mark>?</h5>
+                    <h5 class="card-title"> Alexa's Tri 1 Class Schedule</h5>
                     <p class="card-text">
                         <ol>
-                            <li>Python 3.9 is used for most of our backend PBL. HTML, CSS, JavaScript will be used in frontend</li>
-                            <li>Visuals Studio Code (VS Code) is the primary editor, Interactive Development Environment (IDE).</li>
-                            <li>GitHub.  Managing and sharing code change, branches, pull requests, issues, and more will be through GitHub.</li>
-                            <li>DevOps. Python programmers should have a passion for managing the environment and learning automation (Git, Linux, Bash, Python Packages, Docker).</li>
-                            <li>API and Microservice using Flask.  Mastering development techniques in creating and consuming RESTful APIs</li>
+                            <table class="table table-striped table-dark">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Period</th>
+                                    <th scope="col">Class</th>
+                                    <th scope="col">Teacher</th>
+                                    <th scope="col">Room #</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">1</th>
+                                    <td>Physics 1</td>
+                                    <td>Andrea Callicott</td>
+                                    <td>K104</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">2</th>
+                                    <td>AP Calculas AB</td>
+                                    <td>Briana West</td>
+                                    <td>R402</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">3</th>
+                                    <td>ASB</td>
+                                    <td>Jennifer Mitchell</td>
+                                    <td>B128</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">4</th>
+                                    <td>APCSP</td>
+                                    <td>John Mortensen</td>
+                                    <td>A101</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">5</th>
+                                    <td>American Lit 1</td>
+                                    <td>Erin Persil</td>
+                                    <td>J115</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                         </ol>
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
