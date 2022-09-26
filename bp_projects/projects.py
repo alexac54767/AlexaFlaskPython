@@ -21,3 +21,8 @@ def walruses():
 @app_projects.route('/hawkers/')
 def hawkers():
     return render_template("hawkers.html")
+
+    # connects /kangaroos path to render kangaroos.html
+@app_projects.route('/Groupproject/')
+def kangaroos():
+    return render_template("Groupproject.html")
