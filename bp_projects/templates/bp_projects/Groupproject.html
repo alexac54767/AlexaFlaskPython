@@ -11,9 +11,9 @@
 <!-- Setting up a block replacement to customize background to RINGS -->
 {% block background %}
 <script src="{{ url_for('static', filename='js/three.r119.min.js') }}"></script>
-<script src="{{ url_for('static', filename='js/vanta.net.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/vanta.clouds2.min.js') }}"></script>
 <script>
-    VANTA.NET({
+     VANTA.CLOUDS2({
         el: "body",
         mouseControls: true,
         touchControls: true,
@@ -21,7 +21,7 @@
         minHeight: 200.00,
         minWidth: 200.00,
         scale: 1.00,
-        scaleMobile: 1.00
+        texturePath: "./gallery/noise.png"
     })
 </script>
 {% endblock %}
